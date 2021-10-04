@@ -21,6 +21,35 @@ if((typeof(necExp)) === 'string' && (typeof(necExp)) != null && (typeof(sumExp))
     }
     
 }
+/*
+let i = 0;
+while(i<2){
+    i++;
+    let necExp = prompt("Введите обязательную статью расходов");
+    let sumExp = +prompt("Во сколько это обойдется?");
+if((typeof(necExp)) === 'string' && (typeof(necExp)) != null && (typeof(sumExp)) === 'number' 
+     && (typeof(sumExp)) != null && necExp != '' && sumExp != '' && necExp.length < 50)
+    {
+        appData.expences[necExp] = sumExp;
+    }else{
+
+    }
+}
+
+do{
+    i++;
+    let necExp = prompt("Введите обязательную статью расходов");
+    let sumExp = +prompt("Во сколько это обойдется?");
+if((typeof(necExp)) === 'string' && (typeof(necExp)) != null && (typeof(sumExp)) === 'number' 
+     && (typeof(sumExp)) != null && necExp != '' && sumExp != '' && necExp.length < 50)
+    {
+        appData.expences[necExp] = sumExp;
+    }else{
+
+    }
+}
+while(i<2);
+*/
 appData.moneyPerDay = appData.budget / 30;
 alert('Бюджет в день: ' + appData.moneyPerDay);
 
