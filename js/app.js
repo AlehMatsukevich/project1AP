@@ -75,7 +75,9 @@ let appData = {
             alert('нельзя оставить поле пустым или не ввести значения');
         }
     }
-};  function appDataFor(){
+};  
+
+function appDataFor(){
         console.log('Наша програма содержит данные: ');
         for( const keys in appData){
         console.log(keys + ': ' + appData[keys]);
